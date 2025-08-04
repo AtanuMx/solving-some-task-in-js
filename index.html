@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRADES</title>
+</head>
+<body>
+    <script>
+        //declaration..........
+       let numbers;
+       let grades;
+
+       //ask users to input their scores?
+       numbers = parseInt(prompt("enter your scores please"));
+
+       //evaluating the numbers to determine the grades.....
+       if(numbers >=90 && numbers <=100) {
+        grades = "A"
+       } else if(numbers >=80 && numbers <=89) {
+        grades = "B"
+       } else if(numbers >=70 && numbers <=79) {
+        grades = "C"
+       } else if(numbers >=60 && numbers <=69) {
+        grades = "D"
+       } else if(numbers <60) {
+        grades = "FAILED"
+       } else{
+        grades = "INVALID"
+       }
+       alert("YOUR GRADE IS : " + grades);
+         
+
+    </script>
+</body>
+</html>
