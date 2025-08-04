@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task 1</title>
+</head>
+<body>
+    <script>
+        // 1. question:write an if statement that checks if a number is positive and prints "postive number"if true
+
+        //declaration.....
+        let number;
+        let output;
+        
+        //asking the user to enter number to determine if positive
+        number = parseInt(prompt("ENTER A NUMBER:"))
+
+        //evaluatig if the number is positive or not
+        if (number >= 0) {
+            output = "positive"
+        }else{
+            output = "negative"
+        }
+
+        alert ("the number you entered is; " + output);
+        
+
+
+        2. question:
+
+        declaration......
+        let user_age;
+        let print;
+
+        //ask the user to enter age
+        user_age = parseInt(prompt("how old are youuuuu?"));
+
+        if (user_age >=18){
+            print = "you are an adult";
+        }else {
+            print = "you still the grow oo";
+        }
+
+        alert (print);
+
+
+        //3. question 
+
+        //declaration....
+        let num;
+        let print;
+
+        //ask user to enter any number
+        num = parseInt(prompt("enter any number"));
+
+        if (num % 5 == 0){
+            print = "divisible by 5"
+        }else {
+            print = "not divisible by 5"
+        }
+
+        alert ("the number you entered is: " + print);
+
+
+        //4. question
+         //declaration.....
+         let input;
+         let message;
+
+         input = prompt("enter your password");
+
+         if (input === "password") {
+            message = "Acces granted"
+         }else {
+            message = "Access denied"
+         }
+
+         alert (message);
+
+
+    </script>
+</body>
+</html>
