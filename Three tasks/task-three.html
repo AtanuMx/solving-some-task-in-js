@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic light simulator</title>
+</head>
+<body>
+    <script>
+        // //traffic light simulator
+
+        // //declaration.....
+        // let condition = 'yellow';
+        // let message;
+
+       
+        // //evaluating......
+        // if (condition === 'red') {
+        //     message = "STOP"
+        // }else if (condition === 'green') {
+        //     message = "GO"
+        // }else if (condition === 'yellow') {
+        //     message = "PROCEED WITH CAUTION"
+        // }
+
+        // alert ("THE TRAFFIC LIGHT SAYS:" + message);
+
+
+
+         //TEMPERATURE CLASSIFY
+
+        //declaration.....
+        let temperature;
+        let message;
+
+        //user input
+        temperature = parseInt(prompt("ENTER THE DEGREE OF YOUR BODY"))
+
+
+       
+        //evaluating......
+        if (temperature <0) {
+            message = "FREEZING"
+        }else if (temperature >=0 && temperature <=15) {
+            message = "COLD"
+        }else if (temperature >=16 && temperature <=25) {
+            message = "MILD"
+        }
+
+        alert ("YOUR BODY TEMPERATURE IS: " + message);
+
+    </script>
+</body>
+</html>
